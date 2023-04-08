@@ -1,0 +1,13 @@
+pip install requests
+pip install csv
+pip install datetime 
+pip install numpy
+pip install pandas 
+pip install matplotlib.pyplot
+pip install seaborn as sns
+pip install sklearn.preprocessing 
+pip install keras
+pip install sklearn.feature_selection
+pip install keras.models import Sequential
+pip install keras.layers import Dense, LSTM
+pip install tqdm import trange
