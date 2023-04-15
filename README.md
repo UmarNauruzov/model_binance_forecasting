@@ -99,13 +99,21 @@ pip install tqdm import trange
 
 После чего данные были нормализованы и разделены на обучающие(80%) и тестовые(20%) и поданы на вход нейросети.
 
-#### Схема нейросети:
+### Схема нейросети №1(LSTM-модели):
 
 ![схема модели](https://github.com/UmarNauruzov/model_binance_forecasting/blob/main/model.png)
 
 #### Визуальное представление предсказания модели для тестовой выборки:
 
 ![предсказания](https://github.com/UmarNauruzov/model_binance_forecasting/blob/main/model_predict.png)
+
+### Схема нейросети №2(не LSTM-модели):
+
+![схема модели_1](https://github.com/UmarNauruzov/model_binance_forecasting/blob/main/схема_нейросети_1.png)
+
+#### Визуальное представление матрицы ошибок:
+
+![матрица ошибок](https://github.com/UmarNauruzov/model_binance_forecasting/blob/main/матрица_ошибок.png)
 
 
 ### Run in `Google Colab`
